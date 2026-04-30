@@ -43,14 +43,6 @@ Typical scenarios I handle:
 
 ---
 
-## Current Work
-
-- TOORLY - global fan-driven tour platform  
-- Infinitum API - lightweight framework for high-performance APIs  
-- WordPress plugin ecosystem (advanced integrations & system extensions)  
-
----
-
 ## Tech Stack
 
 PHP | MySQL | JavaScript  
@@ -92,13 +84,6 @@ Always with focus on reliability and real-world usability.
 
 - Digital literacy & cybersecurity awareness
 - Helping individuals and communities understand online risks
-
----
-
-## Contact
-
-- Website: https://infinitumform.com
-- GitHub: https://github.com/InfinitumForm
 
 ---
 
