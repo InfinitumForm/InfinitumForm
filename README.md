@@ -1,7 +1,14 @@
 # Ivijan Stefan Stipic
 
 Backend & Infrastructure Architect  
-Scalable systems, API ecosystems & high-load platforms  
+Scalable systems, API ecosystems & high-load platforms
+
+## Explore
+
+- [Architecture](./ARCHITECTURE.md)
+- [Case Scenarios](./CASES.md)
+- [Systems](./SYSTEMS.md)
+- [Contact](./CONTACT.md)
 
 ---
 
