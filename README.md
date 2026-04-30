@@ -5,10 +5,10 @@ Scalable systems, API ecosystems & high-load platforms
 
 ## Explore
 
-- [Architecture](./ARCHITECTURE.md)
-- [Case Scenarios](./CASES.md)
-- [Systems](./SYSTEMS.md)
-- [Contact](./CONTACT.md)
+- [Architecture](./docs/ARCHITECTURE.md)
+- [Case Scenarios](./docs/CASES.md)
+- [Systems](./docs/SYSTEMS.md)
+- [Contact](./docs/CONTACT.md)
 
 ---
 
