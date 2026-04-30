@@ -99,3 +99,5 @@ Always with focus on reliability and real-world usability.
 Calm engineering.  
 Stable systems.  
 Architecture that holds under real-world load.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V11XGEKH)
