@@ -3,6 +3,8 @@
 Backend & Infrastructure Architect  
 Scalable systems, API ecosystems & high-load platforms
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V11XGEKH)
+
 ## Explore
 
 - [Architecture](./docs/ARCHITECTURE.md)
