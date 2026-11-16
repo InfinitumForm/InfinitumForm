@@ -26,23 +26,30 @@ Designed and developed backend architecture and workflows for PR and media platf
 
 Developed systems for missing-person records, harmful-content reporting, and custom search, with attention to access control and sensitive data.
 
-## WordPress plugins
+## WordPress Plugin Development
 
-I have developed 20+ custom WordPress plugins. Publicly released examples include:
+I have developed 20+ custom WordPress plugins, including publicly released projects with **over 1 million cumulative downloads and more than 80,000 active installations worldwide**.
 
-- **Cyr to Lat Enhanced:** Cyrillic-to-Latin transliteration.
+My work covers multilingual processing, SEO, geolocation, automation, security, WooCommerce integrations, and WordPress administration.
+
+### Selected Public Projects
+
+- **Cyr to Lat Enhanced:** Cyrillic-to-Latin transliteration, with 80,000+ active installations.
 - **Transliterator:** Multilingual and multiscript transliteration.
-- **Geo Controller:** Location-based WordPress functionality.
-- **Easy Auto Reload:** Automatic page reloading.
-- **AIDisclara:** Editorial disclosure tools for AI-generated or modified images.
-- **MarkuClean:** Cleanup of text formatting and Unicode artifacts.
+- **Geo Controller:** Geolocation and location-based WordPress functionality.
+- **Easy Auto Reload:** Automatic page refreshing and session maintenance.
+- **AIDisclara:** Disclosure tools for AI-generated or modified images.
+- **MarkuClean:** Removal of unwanted formatting, invisible characters, and Unicode artifacts.
 
-The public plugin list and installation figures may change. See [WordPress.org](https://profiles.wordpress.org/ivijanstefan/) for current information.
+These projects range from smaller utilities to widely adopted plugins used on thousands of websites.
+
+For the complete plugin portfolio and current installation statistics, see my [WordPress.org profile](https://profiles.wordpress.org/ivijanstefan/).
 
 ## Additional systems
 
 - **mitdabei.at:** Public-facing platform development.
 - **lehre-im-walgau.at:** Education-oriented platform development and maintenance.
+- **Autolead Kings:** Backend and data-processing functionality for lead management.
 - **Autolead Kings:** Backend and data-processing functionality for lead management.
 
 These entries describe my work, not platform ownership or ongoing support.
