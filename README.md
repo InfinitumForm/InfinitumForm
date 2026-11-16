@@ -1,101 +1,23 @@
 # Ivijan Stefan Stipic
 
-Backend & Infrastructure Architect  
-Scalable systems, API ecosystems & high-load platforms
+**Lead Software Engineer | Software Architect | PHP & WordPress Backend Development**
 
-## Explore
+I build and maintain backend systems, APIs, and WordPress applications. My work covers software architecture, database performance, third-party integrations, Linux infrastructure, and fixing legacy systems without unnecessary rewrites.
 
-- [Architecture](./docs/ARCHITECTURE.md)
-- [Case Scenarios](./docs/CASES.md)
-- [Systems](./docs/SYSTEMS.md)
-- [Contact](./docs/CONTACT.md)
+## Experience
 
----
+- **TOORLY:** Led backend engineering for a platform with 800,000+ registered users and 30+ service integrations.
+- **WordPress:** Developed 20+ custom plugins for automation, SEO, integrations, and performance.
+- **OnlinePressKit247 / PitchRate:** Built the backend architecture and automation workflows for PR platforms.
 
-## Engineering Philosophy
+## Technical Focus
 
-Most systems don’t fail because of scale.  
-They fail because of architecture decisions that don’t survive real-world load.
+**PHP, WordPress, MySQL, MariaDB, Redis, JavaScript, REST APIs, OAuth, Linux, Apache, Nginx, Git**
 
-I design and rebuild systems that perform under pressure - not just in ideal conditions.
+I focus on database and query optimization, API reliability, security, caching, and maintaining production systems.
 
----
+## More Details
 
-## What I Do
+[Architecture](./docs/ARCHITECTURE.md) | [Case Scenarios](./docs/CASES.md) | [Systems](./docs/SYSTEMS.md) | [Contact](./docs/CONTACT.md)
 
-I work on backend architecture and infrastructure for systems where reliability is critical.
-
-Typical scenarios I handle:
-
-- APIs becoming unreliable under load  
-- Performance degradation with traffic growth  
-- Unstable integrations and third-party dependencies  
-- Legacy systems blocking scalability  
-- Poor database and caching strategies  
-- Systems without proper monitoring or fault tolerance  
-
----
-
-## Core Expertise
-
-- Backend Architecture (PHP-based systems, scalable design)
-- API Design & Integrations (REST, SDK, OAuth workflows)
-- High-Load System Optimization
-- Database Performance & Query Optimization
-- Caching Strategies (application-level, distributed)
-- Infrastructure & Server Optimization
-- Monitoring, Logging & Production Stability
-- Legacy System Refactoring & Modernization
-- Secure Data Workflows
-
----
-
-## Tech Stack
-
-PHP | MySQL | JavaScript  
-REST APIs | OAuth | SDK integrations  
-Linux servers | Performance tuning | Caching systems  
-
----
-
-## Approach
-
-I don’t apply surface-level fixes.
-
-I identify structural bottlenecks, remove instability points and rebuild systems so they scale properly and remain maintainable long-term.
-
-From low-level code to infrastructure, I take responsibility for:
-
-- System logic
-- Database efficiency
-- API reliability
-- Server performance
-- Production stability
-
----
-
-## AI in Backend Systems
-
-AI is not a feature. It’s a layer.
-
-I integrate AI where it improves:
-- automation
-- data processing
-- decision flows
-
-Always with focus on reliability and real-world usability.
-
----
-
-## Additional Work
-
-- Digital literacy & cybersecurity awareness
-- Helping individuals and communities understand online risks
-
----
-
-## Final Note
-
-Calm engineering.  
-Stable systems.  
-Architecture that holds under real-world load.
+[LinkedIn](https://www.linkedin.com/in/ivijanstefanstipic/)

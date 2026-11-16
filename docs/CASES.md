@@ -1,138 +1,21 @@
-# Case Scenarios
+# Engineering Cases
 
-Real-world problems are rarely isolated.  
-Most failures are a combination of architectural decisions, data flow issues and lack of control under load.
+These are examples of the kinds of problems I investigate. They describe my approach, **not** individual client case studies or measured outcomes.
 
-Below are typical scenarios I work on.
+## An API becomes slow during busy periods
 
----
+I check which requests are slowing down, whether the delay comes from application code, SQL queries, or external providers, and whether errors correlate with traffic. I then address the bottleneck: query changes, caching, controlled concurrency, or better handling of slow external calls. I measure response time and error rates again after the change.
 
-## API Instability Under Load
+## A legacy PHP application is difficult to maintain
 
-### Problem
+I map the important flows and dependencies before refactoring. I isolate changes into manageable pieces, preserve existing behavior, and add checks where practical. A full rewrite is a last resort, not the starting point.
 
-APIs start failing during traffic spikes.
+## MySQL queries degrade as data grows
 
-Symptoms:
-- Increased response times  
-- Timeout errors  
-- Inconsistent responses  
-- Third-party integrations becoming unreliable  
+I examine the slow queries and execution plans, review indexes, and check whether the application fetches more data than it needs. Changes are tested against realistic data volumes, including their effect on writes and other queries.
 
-Root causes typically include:
-- inefficient database queries  
-- lack of caching strategy  
-- uncontrolled request flow  
-- missing rate limiting  
+## A third-party integration fails intermittently
 
----
+I distinguish provider failures from local bugs. I inspect request and response logs without exposing sensitive data, set explicit timeouts, handle retries carefully, and ensure one failed provider does not unnecessarily break unrelated operations. For payments and other state-changing requests, I pay particular attention to duplicate operations.
 
-### Approach
-
-- Analyzed request lifecycle and bottlenecks  
-- Optimized critical database queries and indexing  
-- Introduced multi-layer caching  
-- Implemented rate limiting and request control  
-- Stabilized third-party integrations with retry logic and timeouts  
-
----
-
-### Result
-
-- Consistent response times under load  
-- Eliminated random failures and timeouts  
-- Predictable API behavior even during traffic spikes  
-
----
-
-## Legacy System Blocking Growth
-
-### Problem
-
-A monolithic system becomes difficult to scale and maintain.
-
-Symptoms:
-- slow feature development  
-- tightly coupled components  
-- increasing number of bugs  
-- performance degradation under load  
-
----
-
-### Approach
-
-- Identified critical modules and dependencies  
-- Isolated core functionality into structured components  
-- Reduced coupling between system parts  
-- Improved data flow and internal interfaces  
-- Introduced scalable architecture patterns  
-
----
-
-### Result
-
-- Faster and safer development cycles  
-- Improved system performance  
-- Reduced complexity and easier maintenance  
-
----
-
-## Database Bottleneck Under Growth
-
-### Problem
-
-System slows down as data volume increases.
-
-Symptoms:
-- slow queries  
-- high database load  
-- locking issues  
-- inconsistent performance  
-
----
-
-### Approach
-
-- Analyzed query patterns and execution plans  
-- Optimized indexing strategy  
-- Reduced unnecessary joins and heavy queries  
-- Introduced read/write separation where needed  
-- Applied caching for frequent reads  
-
----
-
-### Result
-
-- Significant reduction in query execution time  
-- Lower database load  
-- Stable performance with growing data  
-
----
-
-## Unstable Third-Party Integrations
-
-### Problem
-
-External APIs introduce unpredictability into the system.
-
-Symptoms:
-- random failures  
-- delayed responses  
-- cascading errors across the system  
-
----
-
-### Approach
-
-- Implemented timeout control and retries  
-- Added fallback mechanisms  
-- Isolated integration layer  
-- Introduced logging and monitoring for external calls  
-
----
-
-### Result
-
-- Controlled failure behavior  
-- Reduced system-wide impact  
-- Improved overall reliability  
+These examples are intentionally general. Project-specific responsibilities are listed in [Systems](./SYSTEMS.md).

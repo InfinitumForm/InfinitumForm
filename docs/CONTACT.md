@@ -1,10 +1,12 @@
 # Contact
 
-Website: https://infinitumform.com  
-GitHub: https://github.com/InfinitumForm
-LinkedIn: https://www.linkedin.com/in/ivijanstefanstipic/
-Upwork: https://www.upwork.com/freelancers/~01e40b2d809020996c
-WordPress: https://profiles.wordpress.org/ivijanstefan/
-Email: infinitumform@gmail.com
+For backend development, PHP and WordPress architecture, API integrations, or work on existing systems:
 
-For serious projects involving system stability, performance or scaling - reach out.
+- **Email:** [ivijan.stefan@gmail.com](mailto:ivijan.stefan@gmail.com)
+- **LinkedIn:** [Ivijan-Stefan Stipic](https://www.linkedin.com/in/ivijanstefanstipic/)
+- **GitHub:** [InfinitumForm](https://github.com/InfinitumForm)
+- **Website:** [infinitumform.com](https://infinitumform.com/)
+- **WordPress.org:** [ivijanstefan](https://profiles.wordpress.org/ivijanstefan/)
+- **Upwork:** [Freelancer profile](https://www.upwork.com/freelancers/~01e40b2d809020996c)
+
+Open to remote full-time roles and contract work.

@@ -1,190 +1,58 @@
-# Systems
+# Selected Systems and Projects
 
-This section represents systems and platforms I have built, improved or actively maintain.
+A selection of platforms and organizations I have worked with. Roles and scope vary by project; this is not a list of systems I currently maintain.
 
-Focus is on architecture, performance, scalability and long-term stability.
+## TOORLY
 
----
+**Role:** Lead Software Engineer & Architect | May 2021 - September 2026
 
-## High-Load Platform
+Backend engineering for a platform connecting artists and audiences through fan campaigns and demand-driven touring. Work included REST APIs, checkout and payment integrations, MySQL performance, caching, security, production issues, and modernization of existing code. The platform served 800,000+ registered users and involved 30+ third-party integrations, including Stripe, PayPal, Spotify, and Twilio.
 
-### TOORLY
+## BERTSCHgroup intranet
 
-Global fan-driven platform focused on demand-based tour planning and large-scale user interaction.
+Developed and improved internal communication and workflow functionality for an enterprise operating in 29 countries with 8,000+ employees. Work included user management, backend functionality, database structures, and automation.
 
-Role:
-- Backend & infrastructure architect  
-- System design and core logic ownership  
-- Ongoing development and optimization  
+## OnlinePressKit247 and PitchRate
 
-Scope:
-- Designed and rebuilt core system architecture  
-- API systems and data flow  
-- Performance optimization and scaling strategy  
-- Database structure and query efficiency  
-- Caching and infrastructure-level tuning  
+**Company:** Wasabi Publicity, Inc. | March 2013 - April 2015
 
-Status:
-Active development and long-term system ownership
+Designed and built the backend of PR software connecting media professionals and subject-matter experts. Responsibilities included application architecture, database design, workflows, integrations, infrastructure setup, and coordination of a small development team.
 
----
+- [OnlinePressKit247](https://onlinepresskit247.com/)
+- [PitchRate](https://pitchrate.com/)
 
-## Enterprise Systems
+## Center for Missing and Abused Children
 
-### BertschGroup - Bertsch Holding GmbH (Intranet System)
+**Role:** Senior Software Engineer | January 2021 - August 2023
 
-Internal enterprise platform used for business operations.
+Worked on digital platforms for missing-person records and reporting harmful online content. Built backend functionality, including a custom search system, with attention to access control and sensitive data.
 
-Role:
-- System improvement and backend development  
-- Performance optimization and structural upgrades  
+## Safer Internet Center Serbia
 
-Scope:
-- Stabilized existing architecture  
-- Improved performance under internal load  
-- Refactored parts of the system for maintainability  
-- Enhanced data handling and internal workflows  
+**Role:** Executive Director & Cybersecurity Education Lead | January 2021 - August 2023
 
----
+Worked on internet safety education, online reporting tools, and data protection initiatives for children and families.
 
-## Media & PR Platforms
+## Other web platforms
 
-### Wasaby Publicity
+- **mitdabei.at:** Public-facing web platform; architecture and development.
+- **lehre-im-walgau.at:** Education and career-oriented platform; backend development and maintenance.
+- **Autolead Kings:** Lead-management platform; backend and data-processing functionality.
 
-#### onlinepresskit247.com
-Platform for managing digital press kits and media distribution.
+These entries describe the areas of involvement; they do not imply ongoing maintenance or ownership.
 
-#### pitchrate.com
-Platform for journalist outreach and PR communication workflows.
+## WordPress plugins
 
-Role:
-- Full system architecture and backend development  
+I have built 20+ custom WordPress plugins, including publicly distributed tools for transliteration, geolocation, administration, and automation. Examples:
 
-Scope:
-- Built complete backend systems  
-- Designed API and data flow  
-- Optimized performance and scalability  
-- Integrated media and communication workflows  
+- **Cyr to Lat Enhanced:** Cyrillic-to-Latin transliteration.
+- **Transliterator:** Multilingual and multiscript text conversion.
+- **Geo Controller:** Location-based WordPress functionality.
+- **Post Category Filter (WP Admin):** Category filtering in the WordPress administration area.
+- **Easy Auto Reload:** Automatic page reload functionality.
 
----
+Installation and download counts change over time, so I have not hardcoded them here. See my [WordPress.org profile](https://profiles.wordpress.org/ivijanstefan/) for the public plugin portfolio.
 
-## Government & Security Sector
+## Community work
 
-### Safer Internet Centre Serbia
-
-Role:
-- Director  
-- System development and strategic involvement  
-
-Scope:
-- Development of systems focused on digital safety  
-- Work on infrastructure supporting user protection  
-- Participation in education and awareness programs  
-- Contribution to safer online environments  
-
----
-
-## Educational & Social Impact Systems
-
-### Preobraženje (Addiction Prevention Organization)
-
-Role:
-- Educator  
-- Technical contributor  
-
-Scope:
-- Education on digital risks and behavior  
-- Support in building structured educational systems  
-- Work on awareness and prevention initiatives  
-
----
-
-## Public Platforms
-
-### mitdabei.at
-
-Complete system built for public-facing use.
-
-Role:
-- Full system architecture and development  
-
-Scope:
-- Backend system design  
-- Data structure and logic  
-- Performance optimization  
-- System scalability  
-
----
-
-### lehre-im-walgau.at
-
-Platform focused on education and career opportunities.
-
-Role:
-- System development and improvement  
-
-Scope:
-- Backend logic and data handling  
-- Performance improvements  
-- System maintenance and stability  
-
----
-
-## Lead Management Systems
-
-### Autolead Kings
-
-Lead management and processing platform.
-
-Role:
-- Backend development  
-
-Scope:
-- Data flow handling  
-- Lead processing logic  
-- System performance optimization  
-
----
-
-## WordPress Ecosystem
-
-Active contributor as developer, consultant and speaker within the WordPress community.
-
-### Plugins
-
-#### Cyr to Lat Enhanced
-Active installs: 90,000+
-
-#### Transliterator – Multilingual and Multi-script Text Conversion
-Active installs: 3,000+
-
-#### Geo Controller
-Active installs: 1,000+
-
-#### Post Category Filter (WP Admin)
-Active installs: 1,000+
-
-#### Easy Auto Reload
-Active installs: 1,000+
-
----
-
-### Contributions
-
-#### Wooplatnica
-Active installs: 400+
-
----
-
-## Summary
-
-Across different industries and system types, my work consistently focuses on:
-
-- architecture that scales  
-- systems that remain stable under load  
-- performance optimization at both code and infrastructure level  
-- long-term maintainability  
-
-From enterprise systems to public platforms and high-load environments, the goal remains the same:
-
-Build systems that work reliably in real-world conditions.
+Since 2017, I have also contributed to digital literacy and online safety education through the Preobraženje association, including activities for families and educators.
