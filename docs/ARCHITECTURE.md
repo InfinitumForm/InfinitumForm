@@ -12,16 +12,14 @@ I prefer focused fixes where they solve the problem. Larger refactoring makes se
 
 ## Pay attention to boundaries
 
-The areas I check most closely are:
-
 - **Database access:** query plans, indexes, expensive reads, and write contention.
 - **External services:** authentication, timeouts, retries, error handling, and logging.
-- **Caching:** what is cached, when it expires, and how stale data is invalidated.
-- **Security:** input validation, permissions, secrets, and sensitive data handling.
+- **Caching:** cache contents, expiration, and invalidation.
+- **Security:** input validation, permissions, secrets, and sensitive data.
 - **Deployment:** configuration differences, rollback options, and production diagnostics.
 
 ## Verify the result
 
-I compare behavior before and after a change, using measurements available in the project. Performance work should include correctness checks: a faster response is not an improvement if it returns stale or incomplete data.
+I compare behavior before and after a change using measurements available in the project. Performance improvements also need correctness checks: a faster response is not useful if it returns stale or incomplete data.
 
-For examples of systems I have worked on, see [Systems](./SYSTEMS.md). For common debugging situations, see [Engineering Cases](./CASES.md).
+[Selected projects](./SYSTEMS.md) | [Engineering scenarios](./CASES.md)

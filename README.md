@@ -1,23 +1,20 @@
-# Ivijan Stefan Stipic
+# Ivijan-Stefan Stipic
 
-**Lead Software Engineer | Software Architect | PHP & WordPress Backend Development**
+**Lead Software Engineer | Software Architect | PHP, WordPress, APIs, MySQL**
 
-I build and maintain backend systems, APIs, and WordPress applications. My work covers software architecture, database performance, third-party integrations, Linux infrastructure, and fixing legacy systems without unnecessary rewrites.
+I'm a backend-focused software engineer with 20+ years of experience in web development, software architecture, and technical troubleshooting. I work on PHP applications, WordPress systems, databases, APIs, and Linux infrastructure - often on established platforms that need careful fixes rather than a rewrite.
 
-## Experience
+## Selected work
 
-- **TOORLY:** Led backend engineering for a platform with 800,000+ registered users and 30+ service integrations.
-- **WordPress:** Developed 20+ custom plugins for automation, SEO, integrations, and performance.
-- **OnlinePressKit247 / PitchRate:** Built the backend architecture and automation workflows for PR platforms.
+- **TOORLY:** Led backend engineering for a platform with 800,000+ registered users and 30+ external service integrations.
+- **WordPress:** Developed 20+ custom plugins, including publicly released tools for transliteration, geolocation, automation, and publishing.
+- **OnlinePressKit247 / PitchRate:** Designed and developed backend systems and workflows for PR and media platforms while working at Wasabi Publicity.
+- **BERTSCHgroup:** Worked on intranet functionality, user management, and workflows for an international enterprise.
 
-## Technical Focus
+**Main stack:** PHP, WordPress, MySQL, MariaDB, Redis, JavaScript, REST APIs, Linux, Apache, Nginx, Git.
 
-**PHP, WordPress, MySQL, MariaDB, Redis, JavaScript, REST APIs, OAuth, Linux, Apache, Nginx, Git**
+## About and documentation
 
-I focus on database and query optimization, API reliability, security, caching, and maintaining production systems.
+[Biography](./docs/BIOGRAPHY.md) | [Professional experience](./docs/EXPERIENCE.md) | [Projects](./docs/SYSTEMS.md) | [Engineering approach](./docs/ARCHITECTURE.md) | [Engineering scenarios](./docs/CASES.md) | [Contact](./docs/CONTACT.md)
 
-## More Details
-
-[Architecture](./docs/ARCHITECTURE.md) | [Case Scenarios](./docs/CASES.md) | [Systems](./docs/SYSTEMS.md) | [Contact](./docs/CONTACT.md)
-
-[LinkedIn](https://www.linkedin.com/in/ivijanstefanstipic/)
+[LinkedIn](https://www.linkedin.com/in/ivijanstefanstipic/) | [WordPress.org](https://profiles.wordpress.org/ivijanstefan/)

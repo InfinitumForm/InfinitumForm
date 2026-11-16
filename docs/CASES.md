@@ -1,21 +1,21 @@
-# Engineering Cases
+# Engineering Scenarios
 
-These are examples of the kinds of problems I investigate. They describe my approach, **not** individual client case studies or measured outcomes.
+These are common problems I investigate, not claims about specific clients or measured outcomes.
 
-## An API becomes slow during busy periods
+## An API slows down under load
 
-I check which requests are slowing down, whether the delay comes from application code, SQL queries, or external providers, and whether errors correlate with traffic. I then address the bottleneck: query changes, caching, controlled concurrency, or better handling of slow external calls. I measure response time and error rates again after the change.
+I compare request timings, SQL execution, application logs, and external-service latency to locate the bottleneck. Depending on the cause, the fix may involve query changes, caching, smaller payloads, or better handling of slow providers. I check response times and failures again after the change.
 
-## A legacy PHP application is difficult to maintain
+## A legacy PHP system is hard to change
 
-I map the important flows and dependencies before refactoring. I isolate changes into manageable pieces, preserve existing behavior, and add checks where practical. A full rewrite is a last resort, not the starting point.
+I trace the important code paths and dependencies before refactoring. I try to preserve existing behavior while isolating the parts that make changes risky. A complete rewrite needs a clear technical reason.
 
-## MySQL queries degrade as data grows
+## MySQL performance gets worse as records grow
 
-I examine the slow queries and execution plans, review indexes, and check whether the application fetches more data than it needs. Changes are tested against realistic data volumes, including their effect on writes and other queries.
+I inspect slow queries, execution plans, indexes, and the amount of data fetched. I also check how a proposed change affects writes and other queries, rather than optimizing a single request in isolation.
 
-## A third-party integration fails intermittently
+## A provider integration fails intermittently
 
-I distinguish provider failures from local bugs. I inspect request and response logs without exposing sensitive data, set explicit timeouts, handle retries carefully, and ensure one failed provider does not unnecessarily break unrelated operations. For payments and other state-changing requests, I pay particular attention to duplicate operations.
+I separate provider errors from local bugs, review sanitized logs, enforce timeouts, and handle retries carefully. With payments or other state-changing requests, duplicate execution is a specific risk to address.
 
-These examples are intentionally general. Project-specific responsibilities are listed in [Systems](./SYSTEMS.md).
+For project responsibilities rather than illustrative scenarios, see [Selected projects](./SYSTEMS.md).

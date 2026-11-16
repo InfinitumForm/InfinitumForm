@@ -1,58 +1,48 @@
 # Selected Systems and Projects
 
-A selection of platforms and organizations I have worked with. Roles and scope vary by project; this is not a list of systems I currently maintain.
+This page describes work I contributed to in different roles. It is not a list of products I own or systems I currently maintain.
 
 ## TOORLY
 
-**Role:** Lead Software Engineer & Architect | May 2021 - September 2026
+**Lead Software Engineer & Architect | May 2021 - September 2026**
 
-Backend engineering for a platform connecting artists and audiences through fan campaigns and demand-driven touring. Work included REST APIs, checkout and payment integrations, MySQL performance, caching, security, production issues, and modernization of existing code. The platform served 800,000+ registered users and involved 30+ third-party integrations, including Stripe, PayPal, Spotify, and Twilio.
+Backend engineering for a social and event platform connecting artists and audiences. The platform served 800,000+ registered users. My work included REST APIs, more than 30 third-party integrations, checkout and payments, caching, MySQL performance, security, and modernization of existing code. Integrations included Stripe, PayPal, Spotify, and Twilio.
 
 ## BERTSCHgroup intranet
 
-Developed and improved internal communication and workflow functionality for an enterprise operating in 29 countries with 8,000+ employees. Work included user management, backend functionality, database structures, and automation.
+Worked on communication features, workflow automation, user management, and database functionality for a company operating in 29 countries with 8,000+ employees.
 
 ## OnlinePressKit247 and PitchRate
 
-**Company:** Wasabi Publicity, Inc. | March 2013 - April 2015
+**Wasabi Publicity, Inc. | March 2013 - April 2015**
 
-Designed and built the backend of PR software connecting media professionals and subject-matter experts. Responsibilities included application architecture, database design, workflows, integrations, infrastructure setup, and coordination of a small development team.
+Designed and developed backend architecture and workflows for PR and media platforms connecting journalists and subject-matter experts. Responsibilities included PHP applications, database design, integrations, infrastructure, and coordination of a small development team.
 
-- [OnlinePressKit247](https://onlinepresskit247.com/)
-- [PitchRate](https://pitchrate.com/)
+[OnlinePressKit247](https://onlinepresskit247.com/) | [PitchRate](https://pitchrate.com/)
 
 ## Center for Missing and Abused Children
 
-**Role:** Senior Software Engineer | January 2021 - August 2023
+**Senior Software Engineer | January 2021 - August 2023**
 
-Worked on digital platforms for missing-person records and reporting harmful online content. Built backend functionality, including a custom search system, with attention to access control and sensitive data.
-
-## Safer Internet Center Serbia
-
-**Role:** Executive Director & Cybersecurity Education Lead | January 2021 - August 2023
-
-Worked on internet safety education, online reporting tools, and data protection initiatives for children and families.
-
-## Other web platforms
-
-- **mitdabei.at:** Public-facing web platform; architecture and development.
-- **lehre-im-walgau.at:** Education and career-oriented platform; backend development and maintenance.
-- **Autolead Kings:** Lead-management platform; backend and data-processing functionality.
-
-These entries describe the areas of involvement; they do not imply ongoing maintenance or ownership.
+Developed systems for missing-person records, harmful-content reporting, and custom search, with attention to access control and sensitive data.
 
 ## WordPress plugins
 
-I have built 20+ custom WordPress plugins, including publicly distributed tools for transliteration, geolocation, administration, and automation. Examples:
+I have developed 20+ custom WordPress plugins. Publicly released examples include:
 
 - **Cyr to Lat Enhanced:** Cyrillic-to-Latin transliteration.
-- **Transliterator:** Multilingual and multiscript text conversion.
+- **Transliterator:** Multilingual and multiscript transliteration.
 - **Geo Controller:** Location-based WordPress functionality.
-- **Post Category Filter (WP Admin):** Category filtering in the WordPress administration area.
-- **Easy Auto Reload:** Automatic page reload functionality.
+- **Easy Auto Reload:** Automatic page reloading.
+- **AIDisclara:** Editorial disclosure tools for AI-generated or modified images.
+- **MarkuClean:** Cleanup of text formatting and Unicode artifacts.
 
-Installation and download counts change over time, so I have not hardcoded them here. See my [WordPress.org profile](https://profiles.wordpress.org/ivijanstefan/) for the public plugin portfolio.
+The public plugin list and installation figures may change. See [WordPress.org](https://profiles.wordpress.org/ivijanstefan/) for current information.
 
-## Community work
+## Additional systems
 
-Since 2017, I have also contributed to digital literacy and online safety education through the Preobraženje association, including activities for families and educators.
+- **mitdabei.at:** Public-facing platform development.
+- **lehre-im-walgau.at:** Education-oriented platform development and maintenance.
+- **Autolead Kings:** Backend and data-processing functionality for lead management.
+
+These entries describe my work, not platform ownership or ongoing support.
